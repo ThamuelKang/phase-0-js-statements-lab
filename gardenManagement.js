@@ -14,3 +14,8 @@ if (timeOfDay === "evening" || timeOfDay === "night") {
 } else {
     console.log("Lights off")
 }
+
+while (soilMoisture < 40) {
+    soilMoisture += 5
+    console.log(soilMoisture)
+}
